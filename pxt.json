@@ -1,0 +1,34 @@
+{
+    "name": "skraldespand",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2",
+        "MakerBit-IR-Transmitter": "github:1010technologies/pxt-makerbit-ir-transmitter#v1.0.0",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.9",
+        "cozir": "github:letstalkscience/pxt-cozir#v0.0.9",
+        "pxt-sensor": "github:monkmakes/pxt-sensor#v0.0.2",
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.6",
+        "pxt-HX711": "github:daferdur/pxt-myhx711#v1.0.18"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
